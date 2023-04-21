@@ -1,3 +1,6 @@
+# Carla Dataset can be downloaded from Kaggle
+# For the project, we combined all the data available(5000 images) and splitted it - 4000 for training, 1000 for testing
+
 import numpy as np
 from torch.utils.data import Dataset
 from PIL import Image
