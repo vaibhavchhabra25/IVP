@@ -110,7 +110,7 @@ class SegNet(nn.Module):
         return x
     
 # def test():
-#     x = torch.randn((3, 3, 160, 160))
+#     x = torch.randn((3, 3, 240, 320))
 #     model = SegNet(in_channels=3)
 #     predictions = model(x)
 #     assert predictions.shape == x.shape
